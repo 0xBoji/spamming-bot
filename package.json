@@ -1,0 +1,24 @@
+{
+  "name": "spamming-bot",
+  "version": "1.0.0",
+  "description": "spamming bot in cli",
+  "main": "main.ts",
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS=--max-old-space-size=800 ts-node src/main.ts"
+  },
+  "author": "team@scallop.io",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mysten/sui.js": "^0.52.0",
+    "@scallop-io/sui-kit": "^0.44.0",
+    "bignumber.js": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
